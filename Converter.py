@@ -336,6 +336,7 @@ class Converter:
         ]
 
         print(new_function_string_candidate)
+        print(new_function_string_probabilities)
         new_function_string = np.random.choice(
             new_function_string_candidate,size = 1,p = new_function_string_probabilities
         )
